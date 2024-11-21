@@ -1,0 +1,30 @@
+{
+  "name": "crypto_page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo Building project...",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "Lesha",
+  "license": "MIT",
+  "description": "A simple crypto landing page.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yexelay/my-wallet.git"
+  },
+  "keywords": [
+    "crypto",
+    "web",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/Yexelay/my-wallet/issues"
+  },
+  "homepage": "https://github.com/Yexelay/my-wallet#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "gh-pages": "^6.2.0"
+  }
+}
